@@ -14,7 +14,6 @@ html, body, img {
     z-index:100;
 }
 
-
 .holiday_modal{
     margin:auto;
     width:600px;
@@ -53,9 +52,7 @@ html, body, img {
     background:white;
     letter-spacing: 0.48px;
     font-weight:bold;
-    /* font-weight:600px; */
     border:1px solid black;
-
 }
 
 .holiday_price{
@@ -63,12 +60,12 @@ html, body, img {
     margin-bottom:-46px;
 }
 
-
 .holiday_number{
     font-size:140px;
     letter-spacing: -2.8px;
     font-weight:bold;
 }
+
 .holiday_cent{
     font-size:70px;
     margin-left:-34px;
@@ -76,6 +73,7 @@ html, body, img {
     position:relative;
     bottom:40px;
 }
+
 .holiday_week{
     font-weight:bold;
     font-size:30px;
@@ -87,7 +85,7 @@ html, body, img {
     font-size:18px;
     line-height:30px;
     margin-bottom:29px;
-    letter-spacing: -0.36px;
+    letter-spacing: -0.18px;
     line-height:28px;
     width:440px;
     font-weight:bold;
@@ -99,24 +97,25 @@ html, body, img {
     text-decoration:none;
     font-size:18px;
     font-weight:600px;
-    /* font-weight:bold; */
     letter-spacing:0.9px;
     padding: 12px 30px;
     border-radius:2px;
     margin-bottom:10px;
 }
+
 .holiday_subscribe:hover{
     text-decoration:none;
     color:white;
 }
-
 
 .holiday_cancel{
     color:#262629;
     font-size:14px;
     text-decoration:none;
     font-weight:bold;
+    letter-spacing: -0.01px;
 }
+
 .holiday_cancel:hover{
     text-decoration:none;
     color:#262629;
@@ -135,7 +134,6 @@ html, body, img {
     z-index: 2;
     cursor: pointer;
 }
-
 
 @media screen and (max-width: 600px) {
     
@@ -159,40 +157,41 @@ html, body, img {
         margin-bottom:26px;
     }
 
-    .holiday_friday{
-        font-size:33px;
-        line-height:44px;
-        margin-top:1px;
-    }
-
     .holiday_number{
         font-size:120px;
+        letter-spacing: -2.4px;
     }
+
     .holiday_price{
         margin-top:-32px;
         margin-bottom:-37px;
     }
+
     .holiday_cent{
         font-size:60px;
         bottom:35px;
         margin-left:-28px;
     }
+
     .holiday_sale{
         font-size:20px;
         line-height:29px;
         padding:0px 8px;
+        letter-spacing: 0.4px;
     }
+
     .holiday_week{
         font-size:22px;
+        letter-spacing: -0.44px;
     }
     
-
     .holiday_unlimited{
         font-size:16px;
         line-height:26px;
         width:264px;
         margin-bottom:28px;
         width:233px;
+        letter-spacing: -0.16px;
     }
 
     .holiday_subscribe{
@@ -211,7 +210,6 @@ html, body, img {
     }
 
     .holiday_cancel{
-        letter-spacing: -0.28px;
         font-size:12px;
     }
 }
